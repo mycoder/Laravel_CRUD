@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 09, 2024 at 05:54 PM
+-- Generation Time: Nov 09, 2024 at 06:40 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -161,7 +161,7 @@ INSERT INTO `products` (`id`, `product_id`, `name`, `description`, `price`, `sto
 (11, 'PROD008', 'Ultra-Soft Microfiber Towel Set', 'Quick-drying, lightweight towels ideal for travel or gym.', 24.99, 60, 'image8.jpg', '2024-11-09 10:07:56', '2024-11-09 10:07:56'),
 (12, 'PROD009', 'Leather RFID Wallet', 'Slim, RFID-blocking wallet for secure card and cash storage.', 18.49, 85, 'image9.jpg', '2024-11-09 10:08:18', '2024-11-09 10:08:18'),
 (13, 'PROD010', 'Portable Power Bank 10000mAh', 'High-capacity portable charger with fast charging capability.', 34.99, 100, 'image10.jpg', '2024-11-09 10:08:45', '2024-11-09 10:08:45'),
-(16, 'PROD011', 'Portable Power Bank 10000mAh', 'High-capacity portable charger with fast-charging capability.', 34.99, 100, 'image12.jpg', '2024-11-09 10:51:31', '2024-11-09 10:51:31'),
+(16, 'PROD011', 'Portable Power Bank 10000mAh', 'High-capacity portable charger with fast-charging capability.', 34.99, 100, 'image11.jpg', '2024-11-09 10:51:31', '2024-11-09 11:36:01'),
 (17, 'PROD012', 'Adjustable Laptop Stand', 'Portable and adjustable laptop stand for ergonomic comfort.', 15.99, 120, 'image12.jpg', '2024-11-09 10:52:03', '2024-11-09 10:52:03');
 
 -- --------------------------------------------------------
@@ -184,7 +184,7 @@ CREATE TABLE `sessions` (
 --
 
 INSERT INTO `sessions` (`id`, `user_id`, `ip_address`, `user_agent`, `payload`, `last_activity`) VALUES
-('q1nKwJjIm8hQvwjYRG8naf0tHgt2pgDnAB7WEm5e', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoieGFDUVUxUHRpbkNjSG9TTkZzeU9wdEVoZXVDNE1MVks4THFiaUNCMSI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6NjE6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9wcm9kdWN0cz9kaXJlY3Rpb249YXNjJnBhZ2U9NCZzb3J0PW5hbWUiO31zOjY6Il9mbGFzaCI7YToyOntzOjM6Im9sZCI7YTowOnt9czozOiJuZXciO2E6MDp7fX19', 1731171141);
+('q1nKwJjIm8hQvwjYRG8naf0tHgt2pgDnAB7WEm5e', NULL, '127.0.0.1', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36', 'YTozOntzOjY6Il90b2tlbiI7czo0MDoieGFDUVUxUHRpbkNjSG9TTkZzeU9wdEVoZXVDNE1MVks4THFiaUNCMSI7czo5OiJfcHJldmlvdXMiO2E6MTp7czozOiJ1cmwiO3M6NjE6Imh0dHA6Ly8xMjcuMC4wLjE6ODAwMC9wcm9kdWN0cz9kaXJlY3Rpb249YXNjJnBhZ2U9MSZzb3J0PW5hbWUiO31zOjY6Il9mbGFzaCI7YToyOntzOjM6Im9sZCI7YTowOnt9czozOiJuZXciO2E6MDp7fX19', 1731173984);
 
 -- --------------------------------------------------------
 
