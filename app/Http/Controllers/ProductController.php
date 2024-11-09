@@ -48,6 +48,8 @@ class ProductController extends Controller
             'product_id' => 'required|unique:products',
             'name' => 'required',
             'price' => 'required|numeric',
+            'stock' => 'nullable|integer',
+            'image' => 'nullable|url',
         ]);
 
         Product::create($request->all());
